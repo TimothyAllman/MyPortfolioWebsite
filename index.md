@@ -1,6 +1,6 @@
 +++
 title = "Julia Tutorials Template"
-tags = ["code", "tutorials", "julia']
+tags = ["code", "tutorials"]
 +++
 
 # Hi!
