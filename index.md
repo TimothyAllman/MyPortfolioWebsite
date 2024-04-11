@@ -1,5 +1,5 @@
 +++
-title = "Timothy Allman"
+title = "Julia Tutorials Template"
 tags = ["code", "tutorials", "julia']
 +++
 
