@@ -1,8 +1,8 @@
 +++
-title = "Welcome"
+title = "Julia Tutorials Template"
 tags = ["code", "tutorials", "julia']
 +++
 
 # Hi!
-I'm Tim, Welcome to my website. Here you can learn a little about me and what makes me, me.
-See [my background and education section](/getting-started) if you want to .
+I'm Tim, Welcome to MyPortfolioWebsite. Here you can learn a little about me and what makes me, me.
+See [my background and education section](/getting-started) if you're interested in that sort of thing, or check out the blog section for some of my musings. 
