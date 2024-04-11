@@ -5,8 +5,8 @@ title = "Work Experience and Education"
 # Work Experience
 
 ### Old Mutual South Africa (Quantitative Fincial Software Engineer, 2021/06 - present) 
-* Lead team of 10 to oversee conception, requirement gathering, documentation and rollout.
-* Conduct troubleshooting, analysis and support. Gather user feedback, document bugs and change requests.
+* C# full stack web applicstions work - Developing liquidity and funding managment software to enable users to easily price and organize instruments efficiently, minimizing labour intensive processes, Maintanace of our ExcelAddin as well as other moderinisng inititives, including development of internal Python API using pythonNet to allow python to interface with our C# systems.
+* Python data science work - Led overhaul of cumbersome excel based reports and productionised to allow  automated genertion of reports on a more frequent basis (Daily, Monthly). Implemented this via Ploomber Pipeline which also enabled better documentation more robust change control process. Also directed much fof the upskilling and learning sessions of these along with written learning materials and wikis
 
 # Education & Qualifications
 
@@ -17,8 +17,8 @@ Courses taken
 Course taken
 
 # Projects: 
-* [Casual-Markdown](https://github.com/casualwriter/powerpage) - a lightweight markdown parser
-* [Powerpage](https://github.com/casualwriter/powerpage) - a lightweight browser for html applications
+* [GenieWebApp](https://github.com/casualwriter/powerpage) - a 
+* [PloomberPipeline](https://github.com/casualwriter/powerpage) - a lightweight browser for html applications
 
 
 # Misc. Information
