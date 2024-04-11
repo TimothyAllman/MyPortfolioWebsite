@@ -1,3 +1,3 @@
 # MyPortfolioWebsite
 
-See <http://rikhuijzer.github.io/MyPortfolioWebsite/> for more information.
+See <http://timothyallman.github.io/MyPortfolioWebsite/> for more information.
