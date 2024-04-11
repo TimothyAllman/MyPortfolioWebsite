@@ -1,3 +1,3 @@
-# JuliaTutorialsTemplate
+# MyPortfolioWebsite
 
-See <http://rikhuijzer.github.io/JuliaTutorialsTemplate/> for more information.
+See <http://rikhuijzer.github.io/MyPortfolioWebsite/> for more information.
