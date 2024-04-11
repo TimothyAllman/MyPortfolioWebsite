@@ -6,7 +6,7 @@ title = "Background and Education"
 
 ## Work Experience
 
-### Old Mutual Life Assurance Company South Africa (Quantitative Finacial Software Engineer, 2021/06 - present) 
+### Old Mutual Life Assurance Company South Africa (Quantitative Financial Software Engineer, 2021/06 - present) 
 * C# full stack web applicstions work - Developing liquidity and funding managment software to enable users to easily price and organize instruments efficiently, minimizing labour intensive processes, Maintanace of our ExcelAddin as well as other moderinisng inititives, including development of internal Python API using pythonNet to allow python to interface with our C# systems.
 * Python data science work - Led overhaul of cumbersome excel based reports and productionised to allow  automated genertion of reports on a more frequent basis (Daily, Monthly). Implemented this via Ploomber Pipeline which also enabled better documentation more robust change control process. Addiionally directed much of the upskilling/learning sessions on the above along with producing written learning materials and wikis
 
