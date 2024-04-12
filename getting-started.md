@@ -28,7 +28,7 @@ title = "Background and Education"
 ### MPhil Mathematical Finance (University of Cape Town) 2020/01 - 2021/01
 I completed the Master of Philosophy programme at the African Institute of Financial Markets and Risk Management in the Commerce faculty at the University of Cape Town. Courses taken covered Statistics, Measure Theoretic Probability, Stochastic Calculus, Numerical Methods and Simulation, Calibration, Financial Instruments and Risk Management. 
 
-### BScEng Mechatronics Engineering (University of Cape Town) 2016/01 - 2019/01
+### BScEng Mechatronics Engineering (University of Cape Town) 2016/01 - 2020/01
 I graduated with a Bachelor’s of Science (Engineering), in Mechatronics Engineering, awarded with honours by the Electrical Engineering department of the University of Cape Town at the end of 2019. Courses taken covered Computer Science, Robotics, Control, Digital Signal Processing and Electrical Drives and Machines.
 
 
@@ -41,7 +41,7 @@ I graduated with a Bachelor’s of Science (Engineering), in Mechatronics Engine
 
 ## Projects: 
 
-### INTEREST-RATE OPTION PRICING ACCOUNTING FOR JUMPS AT DETERMINISTIC TIMES 2020
+### INTEREST-RATE OPTION PRICING ACCOUNTING FOR JUMPS AT DETERMINISTIC TIMES 
 My Master’s Dissertation examined the modelling of interest rates for the purposes of pricing bond options, specifically taking into account random jumps of the interest rate at known points in time. This was done by researching various already existing non-jump pricing models and applying current research in short rate jump models to the application of bond options, after which models were simulated and compared numerically to assess results. See the details [here](https://open.uct.ac.za/items/ccf51448-33a9-42d0-a2a4-8acdf0d8fe01)
 
 ### [GenieWebApp](https://github.com/casualwriter/powerpage) 
