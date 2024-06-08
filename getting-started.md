@@ -41,14 +41,14 @@ I graduated with a Bachelor’s of Science (Engineering), in Mechatronics Engine
 
 ## Projects: 
 
-### INTEREST-RATE OPTION PRICING ACCOUNTING FOR JUMPS AT DETERMINISTIC TIMES 
+### Interest-Rate Option Pricing Accounting For Jumps At Deterministic Times 
 My Master’s Dissertation examined the modelling of interest rates for the purposes of pricing bond options, specifically taking into account random jumps of the interest rate at known points in time. This was done by researching various already existing non-jump pricing models and applying current research in short rate jump models to the application of bond options, after which models were simulated and compared numerically to assess results. See the details [here](https://open.uct.ac.za/items/ccf51448-33a9-42d0-a2a4-8acdf0d8fe01)
 
 ### GenieWebApp 
 Web app for 
 link is [here](https://github.com/TimothyAllman)
 
-### PloomberPipeline 
+### PloomberPipelineTemplate 
 Data science analysis Pipeline for 
 link is [here](https://github.com/TimothyAllman)
 
