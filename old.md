@@ -7,7 +7,7 @@ tags = ["code", "tutorials"]
 
 This is a template repository which can be used to create Julia tutorials websites.
 To use this website as a template, go to
-<https://github.com/rikhuijzer/MyPortfolioWebsite>
+<https://github.com/TimothyAllman/MyPortfolioWebsite>
 and click on the big "Use this template" button.
 
 Some general information is provided below.
