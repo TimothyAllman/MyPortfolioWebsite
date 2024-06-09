@@ -45,12 +45,17 @@ I graduated with a Bachelor’s of Science (Engineering), in Mechatronics Engine
 My Master’s Dissertation examined the modelling of interest rates for the purposes of pricing bond options, specifically taking into account random jumps of the interest rate at known points in time. This was done by researching various already existing non-jump pricing models and applying current research in short rate jump models to the application of bond options, after which models were simulated and compared numerically to assess results. See the details [here](https://open.uct.ac.za/items/ccf51448-33a9-42d0-a2a4-8acdf0d8fe01)
 
 ### GenieWebApp 
-Web app for 
-link is [here](https://github.com/TimothyAllman)
+Coming soon,
+Watch this space [here](https://github.com/TimothyAllman)
 
 ### PloomberPipelineTemplate 
-Data science analysis Pipeline for 
-link is [here](https://github.com/TimothyAllman)
+Data science template that I use as a start for most of my projects. 
+Uses Ploomber to construct pipeline of tasks/steps and run end-to-end. 
+Pandas for transformations and data manipulation.
+Plotly for graphing.
+Python-pptx for report creation
+And nbconvert's pdf generation (intergarated into Ploomber) for user step-by-step process document generation. 
+See repo [here](https://github.com/TimothyAllman/PloomberPipelineTemplate)
 
 
 
