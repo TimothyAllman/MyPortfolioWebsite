@@ -1,0 +1,4 @@
+Sitemap: https://rikhuijzer.github.io/MyPortfolioWebsite/sitemap.xml
+
+User-agent: *
+Disallow:
