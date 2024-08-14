@@ -12,7 +12,7 @@ using BenchmarkTools
 
 # ╔═╡ bdacad08-a9b1-11ec-1013-45393b4e19c9
 # hideall
-title = "Benchmarking";
+title = "Data Science Pipeline With Ploomber Template";
 
 # ╔═╡ 031e949e-e784-4d9d-b767-0a3e2d29d3a2
 """
