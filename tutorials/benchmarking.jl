@@ -33,7 +33,8 @@ md"""
 
 # ╔═╡ faef1ae5-eeac-4e23-ba75-23ae2f1ca629
 md"""
-The final template can be found on github here (https://github.com/TimothyAllman/PloomberPipelineTemplate)[https://github.com/TimothyAllman/PloomberPipelineTemplate]
+The final template can be found on github here 
+[https://github.com/TimothyAllman/PloomberPipelineTemplate](https://github.com/TimothyAllman/PloomberPipelineTemplate)
 """
 
 # ╔═╡ a3c923e5-2873-48a2-ad0f-0087585136a7

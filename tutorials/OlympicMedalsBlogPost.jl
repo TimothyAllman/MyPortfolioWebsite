@@ -42,7 +42,7 @@ are broadcast on your local sports channel or viewing service, usually during lu
 # ╔═╡ a3c923e5-2873-48a2-ad0f-0087585136a7
 md"""
 All the code for the process can be found on github here 
-(https://github.com/TimothyAllman/OlympicsMedalsAnalysis)[https://github.com/TimothyAllman/OlympicsMedalsAnalysis]
+[https://github.com/TimothyAllman/OlympicsMedalsAnalysis](https://github.com/TimothyAllman/OlympicsMedalsAnalysis)
 """
 
 # ╔═╡ a16c4a67-8666-4dc5-b100-4c2c7c51f981
