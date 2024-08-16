@@ -37,11 +37,13 @@ md"""
 For those that don't know, the medals table is the "thing" that shows how many medals (gold, silver and bronze) 
 each country has attained. It is constructed in tabular form and ususally is presented on screen when the games 
 are broadcast on your local sports channel or viewing service, usually during lull periods when nothing much else is going on.
-
 """
 
 # ╔═╡ a3c923e5-2873-48a2-ad0f-0087585136a7
-
+md"""
+All the code for the process can be found on github here 
+(https://github.com/TimothyAllman/OlympicsMedalsAnalysis)[https://github.com/TimothyAllman/OlympicsMedalsAnalysis]
+"""
 
 # ╔═╡ a16c4a67-8666-4dc5-b100-4c2c7c51f981
 

@@ -24,64 +24,46 @@ title = "$title"
 # ╔═╡ 8a859941-0f2d-45fb-b56b-a3f58f97a36a
 md"""
 # $title
-
-This notebook shows some `@benchmark` and `@code_warntype` output.
-Both outputs are shown via the `with_terminal` from [PlutoUI.jl](https://github.com/JuliaPluto/PlutoUI.jl), see below.
-
-We define some function `double` and a dictionary of numbers in order to show type inference problems via `@code_warntype`:
 """
 
 # ╔═╡ 90cb7685-09fc-4f2a-88c9-64fada9e50d0
-numbers = Dict(:one => 1f0, :two => 2.0)
+md"""
 
-# ╔═╡ 3f0e2049-8597-4dac-b499-4d7a8a35978e
-function double(mapping, key::Symbol)
-    return 2 * mapping[key]
-end;
+"""
 
 # ╔═╡ faef1ae5-eeac-4e23-ba75-23ae2f1ca629
 md"""
-Now, the code works.
+The final template can be found on github here (https://github.com/TimothyAllman/PloomberPipelineTemplate)[https://github.com/TimothyAllman/PloomberPipelineTemplate]
 """
 
 # ╔═╡ a3c923e5-2873-48a2-ad0f-0087585136a7
-double(numbers, :one)
+
 
 # ╔═╡ a16c4a67-8666-4dc5-b100-4c2c7c51f981
-double(numbers, :two)
+
 
 # ╔═╡ 187e21bc-db38-48c9-97cd-7894685e1b43
-md"""
-But the `@code_warntype` shows some big red warnings:
-"""
+
 
 # ╔═╡ a3b4bcc6-4aa1-48b2-b598-0613794beab2
-with_terminal() do
-    @code_warntype double(numbers, :one)
-end
+
 
 # ╔═╡ 8c147812-f0e7-4b14-9082-3ac4d5f07000
-md"""
-We can fix this by forcing all elements in the dictionary to have the same type.
-Specifically, to we force all elements to be of type `Float64`:
-"""
+
 
 # ╔═╡ 0f78717a-ccbd-4af1-a150-adcce25cddb4
-typednumbers = Dict{Symbol, Float64}(:one => 1f0, :two => 2.0)
+
 
 # ╔═╡ 48d6f2fa-04e8-475c-92b6-43418f6a2c6c
 md"""
-This gets rid of all the type warnings:
+
 """
 
 # ╔═╡ c678d759-9a68-439e-9cb3-3cfe94088794
-with_terminal() do
-    @code_warntype double(typednumbers, :one)
-end
 
 # ╔═╡ 3cf79c82-9d43-41d3-b968-e2d283bc32ea
 md"""
-And makes the method more quick:
+
 """
 
 # ╔═╡ b52f7449-aed4-4eba-905f-3c078fba4f3f
@@ -90,22 +72,13 @@ md"""
 """
 
 # ╔═╡ 064395ff-2cc6-4be1-a6f0-0c3ccefdf8ce
-function with_benchmark_terminal(f)
-    out = sprint(show, "text/plain", f())
-    with_terminal() do
-        print(out)
-    end
-end;
+
 
 # ╔═╡ bc815bd5-1f5e-4641-81f4-80e0306398bf
-with_benchmark_terminal() do
-    @benchmark double(numbers, :one)
-end
+
 
 # ╔═╡ b8f4d737-4647-47f1-8c45-c3ed30994e1f
-with_benchmark_terminal() do
-    @benchmark double(typednumbers, :one)
-end
+
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
