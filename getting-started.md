@@ -14,9 +14,12 @@ title = "Background and Education"
 
 ## Work Experience
 
-### Old Mutual Life Assurance Company South Africa (Quantitative Financial Software Engineer, 2021/06 - present) 
-* C# full stack work, creating and maintaining web applications - Developing liquidity and funding managment software to enable users to easily price and organize instruments efficiently, minimizing labour intensive processes, Maintanace of our ExcelAddin as well as other moderinisng inititives, including development of internal Python API using pythonNet to allow python to interface with our C# systems.
-* Python data science work - Led overhaul of cumbersome excel based reports and productionised to allow  automated genertion of reports on a more frequent basis (Daily, Monthly). Implemented this via Ploomber Pipeline which also enabled better documentation more robust change control process. Additionally directed much of the upskilling/learning sessions on the above along with producing written learning materials and wikis
+### Quantitative Financial Software Engineer (Old Mutual Life Assurance Company South Africa - Treasury & Financial Markets, 2021/06 - present) 
+* C# full stack work (ASP.NET, Entity Framework), creating and maintaining REST web applications deployed via Docker on the Azure cloud - Developing liquidity and funding managment software to enable users to easily price instruments and organize data efficiently, minimizing labour intensive processes. Conducting build out and maintenance of our ExcelAddin as well as other moderinisng inititives, including development of internal Python packages using pythonNet to allow python to interface with our C# systems. Researched and implemented industry standards using tools like uv and ruff to uphold a consistent and easy to understand workflow and OpenAPI to automatically generate client ppacakges and minimize manual developer work hours.
+
+* Python data science work - Led overhaul of cumbersome excel based reports, notably in group's funds transfer pricing model, and productionised to allow  automated genertion of reports on a more frequent basis (Daily, Monthly). Implemented this via Ploomber Pipeline which also enabled better handovers more robust change control process via Git. Other Python work includes spearheading implementation of Python web applications via Django and Django Ninja and researching applicability of hypermedia frontend frameworks (e.g. HTMX) to serve as a leaner more hassle-free alternative to our current Aurellia/React frontends
+
+* Internal Processes - Directed much of the upskilling/learning/presentation sessions on the above and other internal procedures to improve process flow and documentation, additionally mentored others on best practices and technical concepts, culminating in producing written learning materials and setting up the broader team's technical wiki (using JupyterBook) so that recording errors and their solutions, as well as a smooth onboarding process stands not as an afterthought, but instead, a fully integrated front of mind priority.
 
 
 

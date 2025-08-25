@@ -13,7 +13,7 @@ prepath = "MyPortfolioWebsite"
 # RSS (the website_{title, descr, url} must be defined to get RSS)
 generate_rss = false
 website_title = "MyPortfolioWebsite"
-website_descr = "Example website containing Julia tutorials"
-website_url   = "https://rikhuijzer.github.io/MyPortfolioWebsite/"
+website_descr = "Website containing things about me"
+website_url   = "https://timothyallman.github.io/MyPortfolioWebsite/"
 +++
 
