@@ -1,7 +1,3 @@
-+++
-title = "Welcome"
-tags = ["code", "tutorials"]
-+++
 
 # Hi!
 I'm Tim, Welcome to MyPortfolioWebsite. Here you can learn a little bit about me and what sort of code I like.
