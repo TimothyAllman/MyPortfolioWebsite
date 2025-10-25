@@ -1,6 +1,4 @@
-+++
-title = "Background and Education"
-+++
+
 # Background and Education 
 
 
