@@ -1,5 +1,5 @@
 ---
-title: Olympics 
+title: An Opinionated Guide On Consistent Python Package Structure 
 date: 2023-05-11
 authors:
   - name: Timothy Allman
@@ -7,4 +7,8 @@ authors:
 ---
 
 
-fhhjk
+## Some Background
+
+## The Structure
+
+## The Benefits
