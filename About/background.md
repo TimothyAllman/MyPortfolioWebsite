@@ -2,8 +2,13 @@
 title: Background and Education 
 date: 2022-05-11
 exports:
-  - format: docx
   - format: pdf
+    template: lapreprint-typst
+    output: exports/my-document.pdf
+    id: my-document-export
+downloads:
+  - id: my-document-export
+    title: A PDF of this document
 ---
 
 
