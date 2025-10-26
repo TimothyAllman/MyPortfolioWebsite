@@ -5,10 +5,10 @@ exports:
   - format: pdf
     template: lapreprint-typst
     output: exports/my-document.pdf
-    id: my-document-export
-downloads:
-  - id: my-document-export
-    title: A PDF of this document
+#     id: my-document-export
+# downloads:
+#   - id: my-document-export
+#     title: A PDF of this document
 ---
 
 
