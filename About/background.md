@@ -3,7 +3,7 @@ title: Background and Education
 date: 2022-05-11
 exports:
   - format: pdf
-    template: book-theme
+    template: curvenote
     output: exports/my-document.pdf
 #     id: my-document-export
 # downloads:
