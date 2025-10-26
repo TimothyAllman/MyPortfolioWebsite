@@ -1,8 +1,11 @@
 
-# Background and Education 
-
-
-
+---
+title: Background and Education 
+date: 2022-05-11
+exports:
+  - format: docx
+  - format: pdf
+---
 
 
 
