@@ -3,7 +3,14 @@ title: Some Notes On Mathematical Finance
 date: 2023-05-11
 authors:
   - name: Timothy Allman
-
+exports:
+  - format: pdf
+    template: lapreprint-typst
+    # output: exports/my-document.pdf
+#     id: my-document-export
+# downloads:
+#   - id: my-document-export
+#     title: A PDF of this document
 ---
 
 
