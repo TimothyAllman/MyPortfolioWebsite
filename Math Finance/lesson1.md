@@ -319,12 +319,22 @@ the answer is no sometiems it doesnt
 but then what do you do
 well you can't do anything
 
-the fundamental theorem of asset prcingin states
+the fundamental theorem of asset prcinging part 1 states
 and EMM means there is NO ARBITRGE (Harriosn And Krepps)
 
+so when there is no EMM there is arbitrage
+but when there is more than one EMM you can easily show that there is infinitely  many EMMS
+and this is termed an incomplete market and it means not all derivates can be replicated so some derivates can but not all 
 
+the fundamental theorem of asset prcinging part 2 states
+if NA is true then a market is complete complete and every derivative can be hedge if and only iff there is 1 EMM
 
+## Black Scholes
 
+squigggely line
+
+continuous stochastic process
+bachalier phd
 
 
 
