@@ -74,14 +74,26 @@ B_{T} = 1.06
 \end{align}
 
 all together we can represent this in a tree diagram like so
-\begin{align}
-graph TD
-    A[Root Node] --> B[Child 1]
-    A --> C[Child 2]
-    B --> D[Sub-Child 1]
-    C --> E[Sub-Child 2]
-    C --> F[Sub-Child 3]
-\end{align}`
+
+\usepackage{forest}
+\begin{forest}
+  for tree={
+    draw, 
+    rounded corners, 
+    align=center,
+    edge={-stealth, thick},
+    l sep=1cm, % level separation
+    s sep=0.5cm % sibling separation
+  }
+  [Root Node
+    [Child 1]
+    [Child 2
+      [Grandchild 1]
+      [Grandchild 2]
+    ]
+    [Child 3]
+  ]
+\end{forest}
 
 from this we can now answer some questions
 what is the expected return of the bank account?
@@ -245,7 +257,7 @@ thus we construct
 \mathbb{E}^{\mathbb{Q}}[1.06^{-1} \times S_{T}] 
 \end{align}
 
-which we call the expectation **under the probability measure {math}\mathbb{Q}**
+which we call the expectation **under the probability measure $\mathbb{Q}$**
 
 if we do construct this such that it equals the sahre price at time t=0
 
@@ -293,7 +305,7 @@ So in summary the main points are
 this new probability measure {math}\mathbb{Q} has sme interesting properties
 
 \begin{align}
-\mathbb{E}^{mathbb{Q}}(\frac{C_T]{C_0}) = \mathbb{E}^{mathbb{Q}}(\frac{S_T]{S_0}) = \mathbb{E}^{mathbb{Q}}(\frac{B_T]{B_0}) = 1.06
+\mathbb{E}^{\mathbb{Q}}(\frac{C_T]{C_0}) = \mathbb{E}^{\mathbb{Q}}(\frac{S_T]{S_0}) = \mathbb{E}^{\mathbb{Q}}(\frac{B_T]{B_0}) = 1.06
 \end{align}
 
 thus all things/ assets grow at the risk free rate and hence this probability measure Q is know as the Risk-Neutral Measure
