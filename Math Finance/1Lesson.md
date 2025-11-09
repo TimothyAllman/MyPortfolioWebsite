@@ -102,7 +102,7 @@ this is obviously 6%
 a harder one woul be what is the expected return of the share
 
 \begin{align}
-expected value of share  &=  40\mul 0.7 \plus (-10) \mul 0.3 \\
+expected value of share  &=  40\times 0.7 \plus (-10) \times 0.3 \\
                           &=  25
 \end{align}
 
