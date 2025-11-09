@@ -46,8 +46,8 @@ a "good" state and a "bad" state
 
 we assume a "primary/trivial assets" of a share and a bank account
 \begin{align}
-S\arrow \text{share}
-B\arrow \text{bank account}
+S\longrightarrow \text{share}
+B\longrightarrow \text{bank account}
 \end{align}
 
 initiall the share is 100 bucks
@@ -164,8 +164,8 @@ we will create a replicating portfolio. the only thing that this replicating por
 so you can think of the replicating portfolio  as a basket of primary assets which has the value of the option  in all states of world 
 
 \begin{align}
-\psi \arrow number of shares
-\beta  \arrow number of bank
+\psi \longrightarrow number of shares
+\beta  \longrightarrow number of bank
 \end{align}
 
 so in order to determine these values and in order to abbide by the above condition we form the below equations
@@ -197,7 +197,7 @@ thus we end up with $\phi = 0.6$ and $\beta=-50.94$
 \begin{align}
 V_0 &=S_0\times\phi + B_0\times\beta = 
     &=100\times\phi + 1\times\beta = 
-    &=100\times 0.6 + 1\times\-50.94 = 9,06
+    &=100\times 0.6 + 1\times -50.94 = 9,06
 \end{align}
 
 so we have a portfolio $V$
