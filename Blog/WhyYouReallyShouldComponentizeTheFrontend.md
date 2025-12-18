@@ -36,24 +36,42 @@ Yes IDE support like colorisation and formatting can help this, but I still don'
 just like a function (I am quite radical about this ) a file should do one thing and one thing only. this speaks to the locality of control argument when i look at `MyComponentFile.html`
 I should only be looking at what is relavent to hit. I don't want to have to be interested in the fact that in the context of the main page I will need 5px padding at the top
 
-similarly in my 
-
-I just want to see this
+similarly in my main view I dont want to worry about what data should be shown by "my'component" or any of its inner workings I just want to see this
 ```html
 <html>
     <main>
         
-
+        <nav>
+            <a> home </a>
+            <a> about </a>
+            <a> login </a>
+        </nav>
 
         <MyComponentFile/>
 
     </main>
 </html>
 ```
-i.e. I just want to see htat I have a side bar and next to it is the content of my component i.e. I only want to care about layout or the relavent spacing 
+i.e. I just want to see that I have a nav bar and next to it is the content of my component i.e. I only want to care about layout or the relavent spacing 
+
+in actuallity this is still bad because navbar should be it own component as well
+```html
+<html>
+    <main>
+        
+        <MyNavBar/>
+
+        <MyComponentFile/>
+
+    </main>
+</html>
+```
 
 ## The Benefits
-At first this doesn't seem to do much, we have merely taken one file that was fifty lines long and transformed it into two files that are 50
+This speaks to the whole locality of control aspect , 
+if I have to change something in navbar, e.g. say I want the wording for home to be bold, I should go to MyNavBar.html. if I have to go to some other place like Main.html or similar (it isn't terrible) it means that when I am onboarding someone I have to tell them hey the navbar is actually in main etc and while in this trivial example it might not sound like much, in other or larger systems/examples this mental load is a non zero cost, the cost of something a not being straight forward is the hours someone new spends trying to find it, its the cost of in-elegance
+
+at first it this doesn't seem to do much, we have merely taken one file that was fifty lines long and transformed it into two files that are 50
 Not only does this
 
 In any event even if you don't go the whole one file one thing mantra having less to things/html to look at is less to keep in your head and ultimately less places for a mistake to crop up
