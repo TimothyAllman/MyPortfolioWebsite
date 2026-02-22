@@ -148,12 +148,27 @@ This is sub optimal. We can avoid all this just by using camel case or pascal ca
 
 # Use fully qualified/absolute imports. 
 Avoid using dot imports and star imports. 
-```
-```
-
 Instead, import only the file you need. And exactly where you get it from. 
 ```
+from stariodemo.DataStructsPkg.MessageModule import Message
+from stariodemo.DataStructsPkg.UserModule import User
 ```
+
+to emphasize 
+
+Don't do
+```
+from stariodemo.DataStructsPkg import *
+```
+As it now becomes difficult to know What is being imported or from where a function originates? 
+
+And don't do. 
+```
+from .DataStructsPkg import Message
+```
+Don't do this as this relies on relative referencing and could fail if the file structure is not the same. 
+
+
 
 # Use a main.py
 Now that we have a package defined in source, it is very easy for us to import this into an external file We will do 
