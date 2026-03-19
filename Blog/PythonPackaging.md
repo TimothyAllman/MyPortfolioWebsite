@@ -25,7 +25,7 @@ Here is the one this codebase uses.
 Storing this file in the git repo will mean that 
 
 :::{aside}
-I set the `line-length = 320` value of my ruff.toml to the maximum which is 320 because I prefer controlling newlines with magic trailing commas
+I set the `line-length = 320` value of my ruff.toml to the maximum which is 320 because I prefer controlling newlines with magic trailing commas as is described next
 :::
 
 ## Use (magic) trailing commas (like almost always)
