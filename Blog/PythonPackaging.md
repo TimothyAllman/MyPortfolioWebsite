@@ -116,8 +116,7 @@ the diff tool picks up both the new line and the addition fo the comma on the pr
 however with trailing commas
 ```{code-block} python
 :filename: Diff.py
-:linenos:
-:emphasize-lines: 
+:linenos: 
 
 alist = [
     dt.datetime(2025, 11, 23),
