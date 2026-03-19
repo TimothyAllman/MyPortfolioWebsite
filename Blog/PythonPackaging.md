@@ -191,7 +191,7 @@ uv add my-cool-code
 But then unintuitively it will be imported via underscores 
 ```{code-block} python
 :linenos:
-import my_cool_code`
+import my_cool_code
 ```
 
 This is sub optimal. We can avoid all this just by using camel case or pascal case for naming and not touching underscores or dashes (especially in when it comes to package names).
