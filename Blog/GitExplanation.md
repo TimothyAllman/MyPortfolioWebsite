@@ -25,6 +25,8 @@ push [to the "cloud"/remote]
 
 stage + commit
 
+lets say you have a new project
+
 ## A Tale Of Many Folders
 
 Imagine you have a project/thing/codebase/collection of files
