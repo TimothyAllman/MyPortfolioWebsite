@@ -230,7 +230,6 @@ whereas if I had a file like this
 ```{code-block} python
 :filename: ACoolFuncModule.py
 :linenos: 
-:emphasize-lines: 1
 
 def ACoolFunc():
     return "really cool"
