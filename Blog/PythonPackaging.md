@@ -16,8 +16,12 @@ uv is a python package manager written in rust. it is faster than pip
 it goes without saying that code must be reproducible. Code must work on my machine as well as yours. Thus dependencies for your code must be recorded somewhere, Do this in the pyproject.toml file. 
 
 ## Use ruff (formatting)
-We don't want to have to manage The spacing and indentation of code ourselves. Instead use ruff to do this automatically on save. 
-Find a ruff.toml file used in other projects and copy and paste it into yours. 
+We don't want to have to manage The spacing and indentation of code ourselves. Instead use ruff to do this automatically on save. you can place a `ruff.toml` file at the root of your project to configure it with your preferences. 
+Or just find a ruff.toml file used in other projects and copy and paste it into yours.
+Here is the one this codebase uses.
+```{literalinclude} ruff.toml
+:lineno-match:
+``` 
 
 ## Use (magic) trailing commas (like almost always)
 When combined with the ruff formatter above we can use trailing commas to spill/newline long lines of code into multiline blocks/statements.
