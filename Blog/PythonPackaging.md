@@ -87,6 +87,7 @@ message = ACoolFunc()
 I have found that VSCode will suggest something like this 
 ```{code-block} python
 :filename: SomeOtherFile.py
+:linenos: 
 :emphasize-lines: 1
 from MyCoolCodePkg import ACoolFunc
 
@@ -96,8 +97,9 @@ where we will import the file and the last line will throw and error because mod
 
 whereas if I had a file like this 
 ```{code-block} python
-:filename: ACoolFunc.py
-:linenos:
+:filename: ACoolFuncModule.py
+:linenos: 
+:emphasize-lines: 1
 
 def ACoolFunc():
     return "really cool"
