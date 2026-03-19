@@ -239,6 +239,7 @@ then VSCode suggestions give me what I want
 ```{code-block} python
 :filename: SomeOtherFile.py
 :emphasize-lines: 1
+:linenos: 
 from MyCoolCodePkg.ACoolFuncModule import ACoolFunc
 
 message = ACoolFunc()
