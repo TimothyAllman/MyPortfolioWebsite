@@ -22,6 +22,11 @@ Here is the one this codebase uses.
 ```{literalinclude} ../ruff.toml
 :lineno-match:
 ``` 
+Storing this file in the git repo will mean that 
+
+:::{aside}
+I set the `line-length = 320` value of my ruff.toml to the maximum which is 320 because I prefer controlling newlines with magic trailing commas
+:::
 
 ## Use (magic) trailing commas (like almost always)
 When combined with the ruff formatter above we can use trailing commas to spill/newline long lines of code into multiline blocks/statements.
@@ -142,8 +147,9 @@ alist = [
     dt.datetime(2025, 11, 28),
 ]
 ```
+Thus we don't have to change anything else i.e. one line changes are truly one line changes.
 
-and we dont have to change anything else i.e. one line changes are truly one line changes.
+The main takeaway here is that you should use magic trailing commas to go from long lines to nice multi-line blocks of code and that, you should thus use them liberally/almost alwasy as they lead to essentially  "paragraphs" of code which each chunk following on from that which came before and aids the grouping of logical units.
 
 ## Use (as much a possible) "one file one function" thinking 
 Code can get complicated very quickly. Let's say we have a file that defines two functions. 
