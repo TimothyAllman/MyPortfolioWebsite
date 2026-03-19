@@ -19,9 +19,128 @@ it goes without saying that code must be reproducible. Code must work on my mach
 We don't want to have to manage The spacing and indentation of code ourselves. Instead use ruff to do this automatically on save. 
 Find a ruff.toml file used in other projects and copy and paste it into yours. 
 
-## Use (magic) trailing commas
-When combined with the ruff formatter above we can use trailing commas to shorten long lines or control newlines.
-This also helps with diffs, i.e. one line changes are truly one line changes
+## Use (magic) trailing commas (like almost always)
+When combined with the ruff formatter above we can use trailing commas to spill/newline long lines of code into multiline blocks/statements.
+
+lets say I have this code where I am calling a function that has lots of arguments
+```{code-block} python
+:filename: FileThatShouldBeMultiline.py
+:linenos:
+
+athing = MyFunc(argument1 = 1, argument2 =2.0, argument3 = "three", argument4=True)
+
+```
+
+If I add a trailing comma at just before the last `)` 
+```{code-block} python
+:filename: FileThatShouldBeMultiline.py
+:linenos:
+
+athing = MyFunc(argument1 = 1, argument2 =2.0, argument3 = "three", argument4=True,)
+
+```
+and then format with ruff, I will get
+```{code-block} python
+:filename: FileThatShouldBeMultiline.py
+:linenos:
+
+athing = MyFunc(
+    argument1 = 1, 
+    argument2 =2.0, 
+    argument3 = "three", 
+    argument4=True,
+)
+```
+
+the same goes with lists something like this
+
+```{code-block} python
+:filename: ExampleWithList.py
+:linenos:
+
+alist = [dt.datetime(2025, 11, 23), dt.datetime(2025, 11, 23), dt.datetime(2025, 11, 23), dt.datetime(2025, 11, 23), dt.datetime(2025, 11, 23)]
+
+```
+
+will be formatted into
+```{code-block} python
+:filename: ExampleWithList.py
+:linenos:
+
+alist = [
+    dt.datetime(2025, 11, 23),
+    dt.datetime(2025, 11, 23),
+    dt.datetime(2025, 11, 23),
+    dt.datetime(2025, 11, 23),
+    dt.datetime(2025, 11, 23),
+]
+```
+
+This also helps with diffs - for example if we had to add a new item 
+
+with out the trailing comma we the diff we get this
+```{code-block} python
+:filename: Diff.py
+:linenos:
+:emphasize-lines: 8
+
+alist = [
+    dt.datetime(2025, 11, 23),
+    dt.datetime(2025, 11, 24),
+    dt.datetime(2025, 11, 25),
+    dt.datetime(2025, 11, 26),
+    dt.datetime(2025, 11, 27)
+]
+```
+
+```{code-block} python
+:filename: Diff.py
+:linenos:
+:emphasize-lines: 8,9
+
+alist = [
+    dt.datetime(2025, 11, 23),
+    dt.datetime(2025, 11, 24),
+    dt.datetime(2025, 11, 25),
+    dt.datetime(2025, 11, 26),
+    dt.datetime(2025, 11, 27),
+    dt.datetime(2025, 11, 28)
+]
+```
+the diff tool picks up both the new line and the addition fo the comma on the previous line
+
+however with trailing commas
+```{code-block} python
+:filename: Diff.py
+:linenos:
+:emphasize-lines: 9
+
+alist = [
+    dt.datetime(2025, 11, 23),
+    dt.datetime(2025, 11, 24),
+    dt.datetime(2025, 11, 25),
+    dt.datetime(2025, 11, 26),
+    dt.datetime(2025, 11, 27),
+]
+```
+
+becomes
+```{code-block} python
+:filename: Diff.py
+:linenos:
+:emphasize-lines: 9
+
+alist = [
+    dt.datetime(2025, 11, 23),
+    dt.datetime(2025, 11, 24),
+    dt.datetime(2025, 11, 25),
+    dt.datetime(2025, 11, 26),
+    dt.datetime(2025, 11, 27),
+    dt.datetime(2025, 11, 28),
+]
+```
+
+and we dont have to change anything else i.e. one line changes are truly one line changes.
 
 ## Use (as much a possible) "one file one function" thinking 
 Code can get complicated very quickly. Let's say we have a file that defines two functions. 
@@ -63,7 +182,7 @@ def MathSaysHi():
 
 
 Keeping one thing (one function or class) In one file gives us the certainty that the imports we see at the top of the file are the imports we need for the function to work.
-Said in another way, I can be certain that in the above example the `MathSaysHi()` function does not need any external imports to work - how do i know this because there are no imports at the top of its file
+Said in another way, I can be certain that in the above example the `MathSaysHi()` function does not need any external imports to work - how do I know this - because there are no imports at the top of its file, how easy was that.
 
 
 
