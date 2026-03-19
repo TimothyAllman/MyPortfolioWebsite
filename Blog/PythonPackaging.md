@@ -86,7 +86,7 @@ with out the trailing comma we the diff we get this
 ```{code-block} python
 :filename: Diff.py
 :linenos:
-:emphasize-lines: 8
+:emphasize-lines: 6
 
 alist = [
     dt.datetime(2025, 11, 23),
@@ -100,7 +100,7 @@ alist = [
 ```{code-block} python
 :filename: Diff.py
 :linenos:
-:emphasize-lines: 8,9
+:emphasize-lines: 6,7
 
 alist = [
     dt.datetime(2025, 11, 23),
@@ -117,7 +117,7 @@ however with trailing commas
 ```{code-block} python
 :filename: Diff.py
 :linenos:
-:emphasize-lines: 9
+:emphasize-lines: 
 
 alist = [
     dt.datetime(2025, 11, 23),
@@ -132,7 +132,7 @@ becomes
 ```{code-block} python
 :filename: Diff.py
 :linenos:
-:emphasize-lines: 9
+:emphasize-lines: 7
 
 alist = [
     dt.datetime(2025, 11, 23),
