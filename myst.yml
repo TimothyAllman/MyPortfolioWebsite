@@ -16,20 +16,20 @@ project:
     - file: index.md
     - title: About
       children:
-        - file: About\background.md
+        - file: About/background.md
     - title: Blog
       children:
-        - file: Blog\GitExplanation.md
-        - file: Blog\ProcessFlowRuleOfLife.md
-        - file: Blog\WhatYouNeedToBuildAnApplication.md
-        - file: Blog\WhyYouReallyShouldComponentizeTheFrontend.md
-        - file: Blog\PythonPackaging\index.md
-        - file: Blog\MusingsOnInteroperability\index.md
+        - file: Blog/GitExplanation.md
+        - file: Blog/ProcessFlowRuleOfLife.md
+        - file: Blog/WhatYouNeedToBuildAnApplication.md
+        - file: Blog/WhyYouReallyShouldComponentizeTheFrontend.md
+        - file: Blog/PythonPackaging/index.md
+        - file: Blog/MusingsOnInteroperability/index.md
     - title: Math   Finance
       children:
-        - file: Math Finance\0Preamble.md
-        - file: Math Finance\1Lesson.md
-        - file: Math Finance\lesson2notes.md
+        - file: MathFinance/lesson2notes.md
+        - file: MathFinance/0Preamble.md
+        - file: MathFinance/1Lesson.md
     
 site:
   template: book-theme
