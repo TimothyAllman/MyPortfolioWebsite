@@ -19,6 +19,7 @@ project:
         - file: About/background.md
     - title: Blog
       children:
+        - file: Blog/ACodeHaiku/index.md
         - file: Blog/GitExplanation/index.md
         - file: Blog/ProcessFlowRules/index.md
         - file: Blog/WhatYouNeedToBuildAnApplication/index.md
